@@ -1,0 +1,145 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template before PyInstaller builds the exe
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MongoDB cache / data files (if any local dump or db files)
+dump/
+data/
+*.bson
+
+# MongoDB lock files
+mongod.lock
+
+# MongoDB log files
+*.log
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / Frontend / Vite stuff
+node_modules/
+dist/
+build/
+*.log
+
+# Frontend local env files (e.g., Vite env files)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn or npm logs
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Coverage and test reports
+coverage/
+*.lcov
+
+# JetBrains Rider
+.idea/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Lock files for poetry or pipenv (you might want to commit these, but if not:)
+# Pipenv
+Pipfile.lock
+# Poetry
+poetry.lock
+
+# SQLite database files (if you use local SQLite)
+*.sqlite3
