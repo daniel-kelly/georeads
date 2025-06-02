@@ -8,7 +8,7 @@ load_dotenv()
 
 # --- Step 1: Set up connection ---
 # Replace with your MongoDB connection URI (or use an environment variable)
-MONGO_URI = os.environ.get("MONGO_URI")
+MONGO_URI = os.environ.get("../MONGO_URI")
 
 client = MongoClient(MONGO_URI)
 db = client.georeads  # Database name
